@@ -14,7 +14,7 @@ public class HelloServlet extends HttpServlet {
         resp.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = resp.getWriter()) {
             out.println("<h1>Hello from Jenkins CI/CD!</h1>");
-            out.println("<p>Build version: 1</p>");
+            out.println("<p>Build version: 2</p>");
         }
     }
 }
